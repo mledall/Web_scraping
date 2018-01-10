@@ -49,6 +49,9 @@ def navigate_through_page():	# This function will navigate through the page usin
 # The above function is fine to navigate up and down the ladder of tags in the html page. There is a simpler method to obtain all content under a specific tag at once.
 
 
+# This is a command I am adding for the sake of demonstrating I can edit a cloned repository
+
+
 
 def arxiv_fields():	# This function will enumerate all fields covered by arxiv
 	page = requests.get(URL)
